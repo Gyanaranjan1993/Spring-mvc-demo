@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @SuppressWarnings("serial")
@@ -19,24 +20,23 @@ public class Student implements Serializable {
 	
 
 	@Id
-	@Column(name="id")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	
-	@Id
+
 	@Column(name="first_name")
 	private String firstName;
 	
-	@Id
+
 	@Column(name="last_name")
 	private String lastName;
 	
-	@Id
+	
 	@Column(name="email")
 	private String email;
 	
 		
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
@@ -82,6 +82,10 @@ public class Student implements Serializable {
 	}
 
 
+	public Student() {
+		
+	}
+	
 	public Student(String firstName, String lastName, String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;
