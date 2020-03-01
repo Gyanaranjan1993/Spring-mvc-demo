@@ -20,6 +20,15 @@ public class AssignmentOperators {
 		System.out.println("G is = " + g);
 		System.out.println("H is = " + h);
 		
+		//Question examples
+		
+		boolean x=true,v=true;
+		int y = 20;
+		
+		x = (y!=10) ^ (v=false);
+		
+		System.out.println("X= " + x + " Y= " +y + " V= " + v);
+		
 	}
 
 }
