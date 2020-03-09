@@ -1,0 +1,18 @@
+Arrays are collection of objects of similar data types.
+
+> Common array problems :
+
+   Always index begins from zero never from 1;
+   Index will start from zero and goes till length-1;
+
+ >Array Size syntax:
+ 
+ We can not add the array size in the left side; it is always defined during intiaizing;
+ 
+ >String[20] str = new String[]; //this does not compile
+ 
+ 
+ >int size = arr.length(); // this is not compiled as length is not a method
+ >int size = arr.capacity(); //this is not compiled as array does not have capacity method;
+  
+ >Once array length is defined during initializing, the length can not be changed thereafter;

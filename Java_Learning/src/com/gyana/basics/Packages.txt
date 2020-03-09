@@ -1,0 +1,12 @@
+
+Why Packages are necessary in Java:---
+
+1. Avoid naming conflicts. 2 classes of same name can be defined in different packages
+2. Making searching/locating more easy :- similar classes, methods,interfaces can be found easier
+3. providing control access:  protected and default have package level access control
+4. Packaging can be considered as data encapsulation.
+
+
+A package is a container of a group of related classes where some of the classes 
+are accessible are exposed and others are kept for internal purpose.
+We can reuse existing classes from the packages as many time as we need it in our program.
