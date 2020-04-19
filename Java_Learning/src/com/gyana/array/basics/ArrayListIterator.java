@@ -14,6 +14,7 @@ import java.util.Iterator;
  * 
  * If you just want to iterate over a collection, for-each is enough. if you want to more operation then 
  * Iterator is beneficial.
+ * 
  */
 
 public class ArrayListIterator {
@@ -34,7 +35,7 @@ public class ArrayListIterator {
 		}
 
 		for (Iterator<Integer> iterator = a.iterator(); iterator.hasNext();) {
-			Integer n = iterator.next();
+			int n = iterator.next();
 			System.out.print(n);
 
 		}

@@ -1,0 +1,8 @@
+Reference vs Object vs Class vs Instance 
+
+Lets take an example of buliding a house as the analogy
+
+1. Class is basically a blueprint of the house. You can build as many houses you can
+2. Each house you build is called an object or an instance of the class.
+3. Each house we build has an address or a physical location. the address is known as reference.
+4. There can be two references to the same object.

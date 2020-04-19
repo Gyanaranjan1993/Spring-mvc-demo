@@ -1,0 +1,14 @@
+This VS Super
+
+1. this is used to refer to the class variables when the variable name is same as the method parameter name.
+
+2. super is used to access the parent class methods and variables.
+
+this () vs super()
+
+1. this() is used to call a constructor from another overloaded constructor, in the same class.
+2. it should be the first statement in the overloaded constructor
+
+1.super() is used to call the parent class constructor from the child constructor.
+2.java compiler automatically inserts the super() in the beginning of the child constructor if its not mentioned
+3.super() should be the very first statement in the child constructor if mentioned explicitly. 

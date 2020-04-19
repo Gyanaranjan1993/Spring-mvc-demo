@@ -1,0 +1,12 @@
+Use abstract class when
+
+1> You want to share the code to closely related objects.
+2> You can expect classes extending the abstract class has many more common methods and uses fields
+   which need to have access modifiers other than public
+3> You want to declare non static and non final fields whose values can be changed using methods
+
+Use interfaces when
+
+1> Unrelated class may use the interface
+2> You would want to provide specific data type but not concerned who is going to implement.
+3> You want to take advantage of multiple inheritance.
