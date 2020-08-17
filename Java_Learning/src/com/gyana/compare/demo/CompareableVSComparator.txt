@@ -1,0 +1,34 @@
+Comparable vs Comparator in java
+
+A comparable object is capable of comparing itself with another object. 
+The class itself must implements the java.lang.Comparable interface to compare its instances.
+
+Using Comparator
+
+Unlike Comparable, Comparator is external to the element type we are comparing. 
+It’s a separate class. We create multiple separate classes (that implement Comparator) to compare by different members.
+
+Collections class has a second sort() method and it takes Comparator. The sort() method invokes the compare() to sort objects.
+
+Comparable is meant for objects with natural ordering which means the object itself must know how it is to be ordered.
+For example Roll Numbers of students. 
+
+Whereas, Comparator interface sorting is done through a separate class.
+Logically, Comparable interface compares “this” reference with the object specified and Comparator in Java compares two different class objects provided.
+
+
+From stack overflow
+
+When your class implements Comparable, the compareTo method of the class is defining the "natural" ordering of that object. 
+That method is contractually obligated (though not demanded) to be in line with other methods on that object, such as a 0 should
+ always be returned for objects when the .equals() comparisons return true.
+
+A Comparator is its own definition of how to compare two objects, and can be used to compare objects in a way that might not align with the natural ordering.
+
+For example, Strings are generally compared alphabetically. Thus the "a".compareTo("b") would use alphabetical comparisons. 
+If you wanted to compare Strings on length, you would need to write a custom comparator.
+
+In short, there isn't much difference. They are both ends to similar means. 
+
+In general implement comparable for natural order, (natural order definition is obviously open to interpretation), and write a comparator 
+for other sorting or comparison needs.

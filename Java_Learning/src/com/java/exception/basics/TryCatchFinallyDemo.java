@@ -1,7 +1,8 @@
 package com.java.exception.basics;
 
 /*
- * Finally block runs every time even if there is exception or not. Finally should always be defined after Try, catch.
+ * Finally block runs every time even if there is exception or not. 
+ * Finally should always be defined after Try, catch.
  * Only case when Finally statement is  not executed is when we write System.exit() in either try or catch block.
  */
 
