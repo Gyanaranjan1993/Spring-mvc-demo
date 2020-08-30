@@ -1,0 +1,10 @@
+Callable and Future:
+
+
+Callable tasks return Future object
+
+Using Future object we can find out the status of callable task.
+
+Future.isDone()
+Future.cancel()
+

@@ -16,9 +16,9 @@ they can be overridden in the implemented classes, but its not mandatory like ot
 
 Reasons to have default methods in Interface :-
 
-1. Backward compatibility : If the interface is implemented by lots of classes adding a new method will break 
-                            all the classes. instead if you just define a default method, nothing will break
-                            and all implemented classes can have access to the method.
+1. Backward compatibility :  If the interface is implemented by lots of classes adding a new method will break 
+                             all the classes. instead if you just define a default method, nothing will break
+                             and all implemented classes can have access to the method.
                             
 2. Defining common methods : This will be helpful when different implementing classes can use the same logic 
                              mentioned in the default method. So there will be no need to define the logic again.

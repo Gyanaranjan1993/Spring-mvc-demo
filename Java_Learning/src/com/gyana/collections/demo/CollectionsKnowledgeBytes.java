@@ -1,5 +1,8 @@
 package com.gyana.collections.demo;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /*
  * Collections:
  * 
@@ -109,5 +112,12 @@ package com.gyana.collections.demo;
  */
 
 public class CollectionsKnowledgeBytes {
+
+	public static void main(String[] args) {
+
+		Set<Integer> set = new HashSet();
+		set.add(10);
+		set.add(15);
+	}
 
 }

@@ -9,6 +9,20 @@ package com.gyana.collections.demo;
  * 
  * e.g. CopyOnWriteArrayList iterator is fail-safe
  *      ArrayList iterator is fail-fast and does not allow modification while traversing
+ **
+ *	
+ *  Iterator and Map : 
+ *  
+ *  Map can not be traversed using Iterator because its not a collection. Visit below link to see how to iterate over a map
+ *  
+ *  https://www.geeksforgeeks.org/iterate-map-java/
+ *
+ *
+ *  By Default Iterator implementations in java.util package are fail-fast
+ *  Where as Iterator implementations in java.util.concurrent and fail-safe
+ *  Some of the examples are ConcurrentHashMap and CopyOnWriteArrayList
+ *
+ *
  */
 public class IteratorKnowledgeBytes {
 

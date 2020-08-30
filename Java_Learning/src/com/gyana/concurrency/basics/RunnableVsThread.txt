@@ -1,0 +1,7 @@
+Runnable or Thread?
+Simply put, we generally encourage the use of Runnable over Thread:
+
+When extending the Thread class, we're not overriding any of its methods. Instead, we override the method of Runnable (which Thread happens to implement). This is a clear violation of IS-A Thread principle
+Creating an implementation of Runnable and passing it to the Thread class utilizes composition and not inheritance – which is more flexible
+After extending the Thread class, we can't extend any other class
+From Java 8 onwards, Runnables can be represented as lambda expressions

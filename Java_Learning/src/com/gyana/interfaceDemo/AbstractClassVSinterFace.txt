@@ -9,4 +9,4 @@ Use interfaces when
 
 1> Unrelated class may use the interface
 2> You would want to provide specific data type but not concerned who is going to implement.
-3> You want to take advantage of multiple inheritance.
+3> You want to take advantage of multiple inheritance.	
