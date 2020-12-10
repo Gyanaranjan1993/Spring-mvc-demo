@@ -17,7 +17,7 @@ package com.gyana.design.pattern.basics;
  *                 but allows subclasses to alter the type of objects that will be created.
  * 
  * 
- * Structural Pattern:
+ * Structural Pattern    :
  * 
  * Adapter Design Pattern: 
  * 

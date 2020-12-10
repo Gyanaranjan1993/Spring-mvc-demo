@@ -9,10 +9,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class Mycallable implements Callable {
+public class Mycallable implements Callable<String> {
 
 	@Override
-	public Object call() throws Exception {
+	public String call() throws Exception {
 		// TODO Auto-generated method stub
 		Thread.sleep(2000);
 		return Thread.currentThread().getName();
