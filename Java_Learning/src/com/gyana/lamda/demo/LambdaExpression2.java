@@ -14,7 +14,7 @@ public class LambdaExpression2 {
 
 		// Using lambda expression to print all elements
 		// of arrL
-		arrL.forEach(n -> System.out.println(n));
+		arrL.forEach(System.out::println);
 
 		// Using lambda expression to print even elements
 		// of arrL

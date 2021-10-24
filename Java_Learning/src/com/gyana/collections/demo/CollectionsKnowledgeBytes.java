@@ -118,6 +118,8 @@ public class CollectionsKnowledgeBytes {
 		Set<Integer> set = new HashSet();
 		set.add(10);
 		set.add(15);
+		set.add(25);
+		System.out.println(set.toString());
 	}
 
 }
